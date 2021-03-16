@@ -1,0 +1,49 @@
+.TodoItem {
+	/* min-width: 20%; */
+	/* min-height: 10%; */
+	margin: 2%;
+	/* font-size: 2em; */
+	outline: 1px solid darkblue;
+	/* display: inline-block; */
+	/* display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	align-content: center; */
+	background-color: #282c34;
+}
+.TodoItem p {
+	width: 98%;
+	/* height: 50%; */
+	margin: 0;
+	padding: 1%;
+	font-size: 2em;
+}
+.TodoItem div {
+	background-color: rgb(60, 50, 100);
+}
+.TodoItem div div {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+.TodoItem label {
+	margin: 1.5%;
+	/* padding: 0.1% 0.1%; */
+	font-size: 1em;
+}
+.TodoItem input {
+	width: 2vmin;
+	height: 2vmin;
+	margin: 1.5% 10% 0 5%;
+	/* padding: 0.1% 0.1%; */
+}
+.TodoItem button {
+	margin: 1.5%;
+	padding: 0.1% 1%;
+	font-size: 1.1em;
+}
+.TodoItem p.isComplete {
+	text-decoration: line-through;
+}

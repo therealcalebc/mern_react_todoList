@@ -1,0 +1,87 @@
+/* .TodoList {
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	padding: 1%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+} */
+h1 {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+.TodoList {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.ListTitle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	margin: 0;
+	background-color: black;
+	color: white;
+}
+.ListTitle h1 {
+	height: 100%;
+	/* margin: 0 0 1%; */
+	margin: 1%;
+	align-self: baseline;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.ListItems {
+	position: absolute;
+	top: 10%;
+	left: 0;
+	width: 98%;
+	height: 80%;
+	margin: 0;
+	padding: 0 1%;
+	overflow-y: scroll;
+	/* padding: 0 5%; */
+	/* display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start; */
+}
+
+.ListItemAdd {
+	position: absolute;
+	top: 90%;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+	align-content: center;
+	/* line-height: 1.5em; */
+	background-color: black;
+	color: white;
+}
+.ListItemAdd label {
+	margin: 1%;
+	padding: 0.1%;
+	font-size: 1.7em;
+}
+.ListItemAdd input {
+	width: 50%;
+	margin: 1%;
+	padding: 0.1% 0.2%;
+	font-size: 1.5em;
+}
+.ListItemAdd button {
+	margin: 1%;
+	padding: 0.1% 1%;
+	font-size: 1.5em;
+}
